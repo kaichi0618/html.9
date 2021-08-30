@@ -21,28 +21,46 @@ header {
   width: 300px;
   background-color: #eeeeee;
   margin-right: 30px;
+  padding: 10px;
+  position: relative;
 }
 
-.box:nth-last-child {
+.box:nth-child(3) {
   margin-right: 0;
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #eeeeee;
+  background-color: #ff9a4b;
+  padding: 3px;
+}
+
+.box h3 {
+  margin: 15px 0 5px 0;
 }
 
 .picture1 {
   background-image: url(../../../Downloads/chapter9_exercise/img/flow01.png);
-  padding: 10px 10px 15px 10px;
   height: 150px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .picture2 {
   background-image: url(../../../Downloads/chapter9_exercise/img/flow02.png);
-  padding: 10px 10px 15px 10px;
   height: 150px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .picture3 {
   background-image: url(../../../Downloads/chapter9_exercise/img/flow03.png);
-  padding: 10px 10px 15px 10px;
   height: 150px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 footer {
