@@ -83,4 +83,9 @@ footer {
   .box:nth-child(3) {
     margin: 0 auto;
   }
+
+  h3,
+  p {
+    font-family: "游ゴシック体";
+  }
 }
